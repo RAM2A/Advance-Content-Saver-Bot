@@ -15,12 +15,13 @@ logging.getLogger("telethon").setLevel(logging.WARNING)
 
 
 # variables
-API_ID = config("API_ID", default=None, cast=int)
-API_HASH = config("API_HASH", default=None)
-BOT_TOKEN = config("BOT_TOKEN", default=None)
-SESSION = config("SESSION", default=None)
-FORCESUB = config("FORCESUB", default=None)
-AUTH = config("AUTH", default=None)
+API_ID = "24665357" #config("API_ID", default=None, cast=int)
+API_HASH = "beb7e4b83ada668fa85f9a9b56338f1d" #config("API_HASH", default=None)
+BOT_TOKEN = "6561626656:AAEofDQ_-uaIk3vJmiY1xuzjPEeczUXVNt4" #config("BOT_TOKEN", default=None)
+SESSION = "BQF4XQ0AjbGnUNK1ANSRQEVqCDX5PyTqAkznWJF29zMlDQ2S8EZWVL0GFQV88Q4a-D9OvML2kzYcRmXiEBM6I1xF7X54AZKCqn3poH-a_12YeYME0blbkS9UIMP79zjFEnd8BLkrrRsXAXrG0DtTHAgn3uJj187ouJE_kGGJks3wbmWNdr6ZcX_a1lF2l4msrox3fN1d9XadsDTiSlkEcx1U7_rdDVFCyNhKfEDr3RX8Y3nGNNEin2I7X0QYu_SICyWthe3Jlg-58LnMzPtzp4cfJ1dPS3UF2KGNUA6dqKApZ1JJ8KRXba8PjvNJYZ7q4qq1hGVI_aX_FVSy_A5CvaOyaNaVRAAAAABmXyPCAA" #config("SESSION", default=None)
+FORCESUB = "1002137417670" #config("FORCESUB", default=None)
+AUTH = "1717511106" #config("AUTH", default=None)
+
 SUDO_USERS = []
 
 if len(AUTH) != 0:
